@@ -10,11 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 You must be able to run .sml files (Standard ML of New Jersey).
 
 * You can install from https://www.smlnj.org/ the SML compiler it's available for UNIX & Windows System. After the installation
-```sh
+> ```sh
 $ sml ccs.sml
 ```
 
-*Otherwise you can execute it in online compiler as https://www.tutorialspoint.com/execute_smlnj_online.php just copying it in and then push the play button.
+* Otherwise you can execute it in online compiler as https://www.tutorialspoint.com/execute_smlnj_online.php just copying it in and then push the play button.
 
 
 ## Running the tests
