@@ -1,11 +1,12 @@
 # Calculus of Communicating Systems
-
+## Introduction
 The calculus of communicating systems (CCS) is a process calculus introduced by [Robin Milner](https://it.wikipedia.org/wiki/Robin_Milner) around 1980 and the title of a [book](https://www.springer.com/la/book/9783540102359) describing the calculus. Its actions model indivisible communications between exactly two participants. The formal language includes primitives for describing parallel composition, the choice between actions and scope restriction. CCS is useful for evaluating the qualitative correctness of properties of a system such as a deadlock or livelock.
 
 # Description
-This program calculates the abstract tree of the computation performed by the rules of the Calculus of commucation system created by Robin Milner.
-You can make a print of the abstract tree.
-You can find more information in the [pdf file](https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf)
+This program calculates the abstract tree of the computation performed by the rules of the Calculus of Communication System created by Robin Milner.<br/>
+You can print the abstract tree.<br/>
+For more information about Calculus of Communication System<br/>
+You can find more information in the [pdf file](htps://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf) 
 
 #### An example is:
 ```sh
@@ -58,7 +59,7 @@ Example:
 ```
 [example of result](https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/README.md#an-example-is)
 
-The form of the parameters is specified in the abstract algebra 
+The form of the parameters is specified in the abstract algebra:
 ```sh
 ; datatype process = Empty_proc
     | Input_proc of channel * process
