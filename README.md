@@ -40,7 +40,8 @@ You must be able to run .sml files (Standard ML of New Jersey).
      $ sml ccs.sml 
 ```
 
-* Otherwise, you can execute it in the online compiler on the [website](https://www.tutorialspoint.com/execute_smlnj_online.php) by copying it to it and then pressing the play button.
+* Otherwise, you can execute it in the online compiler on the
+[website](https://www.tutorialspoint.com/execute_smlnj_online.php) by copying it to it and then pressing the play button.
 
 
 ## Running the tests
