@@ -7,10 +7,9 @@ This program calculates the abstract tree of the computation performed by the ru
 You can make a print of the abstract tree.
 You can find more information in the [pdf file] (https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf)
 
+
+<h1 align="result"> </h1>
 An example is:
-<h1 align="center">
-  <b>Example</b>
-</h1>
 ```sh
 
  _ --> (a!.0 | (c?.0 + b!.0))
@@ -49,7 +48,7 @@ You must be able to run .sml files (Standard ML of New Jersey).
 ## Running the tests
 
 To run a test, use this synopsis.
-Example:
+Example: 
 ```sh
 ; val program = Par (
     Output_proc ("a", Empty_proc),
@@ -58,7 +57,7 @@ Example:
 
 ; (print or tree_to_string or eval_ccs) program
 ```
-
+[example of result](https://github.com/andreabac3/Calculus-of-Communicating-Systems#result)
 The form of the parameters is specified in the abstract algebra 
 ```sh
 ; datatype process = Empty_proc
