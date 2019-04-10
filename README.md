@@ -1,0 +1,2 @@
+# Calculus-of-Communicating-Systems
+The calculus of communicating systems (CCS) is a process calculus introduced by Robin Milner around 1980 and the title of a book describing the calculus. Its actions model indivisible communications between exactly two participants. The formal language includes primitives for describing parallel composition, choice between actions and scope restriction. CCS is useful for evaluating the qualitative correctness of properties of a system such as deadlock or livelock.
