@@ -1,6 +1,6 @@
 # Calculus of Communicating Systems
 ## Introduction
-The calculus of communicating systems (CCS) is a process calculus introduced by [Robin Milner](https://it.wikipedia.org/wiki/Robin_Milner) around 1980 and the title of a [book](https://www.springer.com/la/book/9783540102359) describing the calculus. Its actions model indivisible communications between exactly two participants. The formal language includes primitives for describing parallel composition, the choice between actions and scope restriction. CCS is useful for evaluating the qualitative correctness of properties of a system such as a deadlock or livelock.
+The calculus of communicating systems (CCS) is a process calculus introduced by [Robin Milner](https://it.wikipedia.org/wiki/Robin_Milner) around 1980 and the title of a [book](https://www.springer.com/la/book/9783540102359) describing the calculus. <br/> Its actions model indivisible communications between exactly two participants. <br/> The formal language includes primitives for describing parallel composition, the choice between actions and scope restriction. <br/> CCS is useful for evaluating the qualitative correctness of properties of a system such as a deadlock or livelock.
 
 # Description
 This program calculates the abstract tree of the computation performed by the rules of the Calculus of Communication System created by Robin Milner.<br/>
