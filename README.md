@@ -1,6 +1,6 @@
 # Calculus of Communicating Systems
 
-The calculus of communicating systems (CCS) is a process calculus introduced by Robin Milner around 1980 and the title of a [book](https://www.springer.com/la/book/9783540102359) describing the calculus. Its actions model indivisible communications between exactly two participants. The formal language includes primitives for describing parallel composition, the choice between actions and scope restriction. CCS is useful for evaluating the qualitative correctness of properties of a system such as a deadlock or livelock.
+The calculus of communicating systems (CCS) is a process calculus introduced by [Robin Milner](https://it.wikipedia.org/wiki/Robin_Milner) around 1980 and the title of a [book](https://www.springer.com/la/book/9783540102359) describing the calculus. Its actions model indivisible communications between exactly two participants. The formal language includes primitives for describing parallel composition, the choice between actions and scope restriction. CCS is useful for evaluating the qualitative correctness of properties of a system such as a deadlock or livelock.
 
 ## Getting Started
 
@@ -10,12 +10,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 You must be able to run .sml files (Standard ML of New Jersey).
 
-* You can install from https://www.smlnj.org/ the SML compiler it's available for UNIX & Windows System. After the installation
+* You can install from [smlnj.org](https://www.smlnj.org/) the SML compiler it's available for UNIX & Windows System. After the installation
 ```sh
      $ sml ccs.sml 
 ```
 
-* Otherwise, you can execute it in the online compiler on the website https://www.tutorialspoint.com/execute_smlnj_online.php by copying it to it and then pressing the play button.
+* Otherwise, you can execute it in the online compiler on the [website](https://www.tutorialspoint.com/execute_smlnj_online.php) by copying it to it and then pressing the play button.
 
 
 ## Running the tests
