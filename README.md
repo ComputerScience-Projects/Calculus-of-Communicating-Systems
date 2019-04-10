@@ -8,6 +8,9 @@ You can make a print of the abstract tree.
 You can find more information in the [pdf file] (https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf)
 
 An example is:
+<h1 align="center">
+  <b>Example</b>
+</h1>
 ```sh
 
  _ --> (a!.0 | (c?.0 + b!.0))
