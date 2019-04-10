@@ -7,9 +7,7 @@ This program calculates the abstract tree of the computation performed by the ru
 You can make a print of the abstract tree.
 You can find more information in the [pdf file] (https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf)
 
-
-<h1 align="result"> </h1>
-An example is:
+#### An example is:
 ```sh
 
  _ --> (a!.0 | (c?.0 + b!.0))
