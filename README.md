@@ -10,62 +10,43 @@ These instructions will get you a copy of the project up and running on your loc
 You must be able to run .sml files (Standard ML of New Jersey).
 
 * You can install from https://www.smlnj.org/ the SML compiler it's available for UNIX & Windows System. After the installation
-> ```sh
-> $ sml ccs.sml ```
+```sh
+     $ sml ccs.sml 
+```
 
-* Otherwise you can execute it in online compiler as https://www.tutorialspoint.com/execute_smlnj_online.php just copying it in and then push the play button.
+* Otherwise, you can execute it in the online compiler on the website https://www.tutorialspoint.com/execute_smlnj_online.php by copying it to it and then pressing the play button.
 
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To run a test, use this synopsis.
+Example:
+```sh
+; val program = Par (
+    Output_proc ("a", Empty_proc),
+    Or (Input_proc ("a", Empty_proc), Output_proc ("a", Empty_proc))
+    )
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+; (print or tree_to_string or eval_ccs) program
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+The form of the parameters is specified in the abstract algebra 
+```sh
+; datatype process = Empty_proc
+    | Input_proc of channel * process
+    | Output_proc of channel * process
+    | Or of process * process
+    | Par of process * process
+```
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Alessandro Scandone**  - [Github profile](https://github.com/PurpleBooth)
+* **Andrea Bacciu**  [Github profile](https://github.com/andreabac3)
+* **Valerio Neri**  [Github profile](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
