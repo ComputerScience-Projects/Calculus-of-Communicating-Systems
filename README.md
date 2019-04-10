@@ -42,11 +42,11 @@ The form of the parameters is specified in the abstract algebra
 
 ## Authors
 
-* **Alessandro Scandone**  - [Github profile](https://github.com/PurpleBooth)
+* **Alessandro Scandone**  - [Github profile](https://github.com/andreabac3)
 * **Andrea Bacciu**  [Github profile](https://github.com/andreabac3)
-* **Valerio Neri**  [Github profile](https://github.com/PurpleBooth)
+* **Valerio Neri**  [Github profile](https://github.com/andreabac3)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/andreabac3/Calculus-of-Communicating-Systems/contributors) who participated in this project.
 
 ## License
 
