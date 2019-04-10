@@ -5,7 +5,7 @@ The calculus of communicating systems (CCS) is a process calculus introduced by 
 # Description
 This program calculates the abstract tree of the computation performed by the rules of the Calculus of commucation system created by Robin Milner.
 You can make a print of the abstract tree.
-You can find more information in the [pdf file] (https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf)
+You can find more information in the [pdf file](https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf)
 
 #### An example is:
 ```sh
@@ -49,14 +49,15 @@ You must be able to run .sml files (Standard ML of New Jersey).
 To run a test, use this synopsis.
 Example: 
 ```sh
-; val program = Par (
+; val programExample = Par (
     Output_proc ("a", Empty_proc),
     Or (Input_proc ("a", Empty_proc), Output_proc ("a", Empty_proc))
     )
 
-; (print or tree_to_string or eval_ccs) program
+; (print or tree_to_string or eval_ccs) programExample
 ```
-[example of result](https://github.com/andreabac3/Calculus-of-Communicating-Systems#result)
+[example of result](https://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/README.md#an-example-is)
+
 The form of the parameters is specified in the abstract algebra 
 ```sh
 ; datatype process = Empty_proc
