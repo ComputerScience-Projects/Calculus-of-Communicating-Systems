@@ -8,28 +8,15 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 
-You must be able to run .sml files (Standard ML of New Jersey) https://www.smlnj.org/
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+You must be able to run .sml files (Standard ML of New Jersey)
+You can install from  https://www.smlnj.org/ the SML compiler it's avaiable for UNIX & Windows System.
+After the installation
+```sh
+$ sml ccs.sml
 ```
 
-And repeat
+Otherwise you can execute it in online compiler as https://www.tutorialspoint.com/execute_smlnj_online.php just copying it in and then push the play button.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
