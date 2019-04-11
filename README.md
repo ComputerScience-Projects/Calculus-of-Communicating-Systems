@@ -75,7 +75,7 @@ The form of the parameters is specified in the abstract algebra:
 
 * **Alessandro Scandone**  - [Github profile](https://github.com/andreabac3)
 * **Andrea Bacciu**  [Github profile](https://github.com/andreabac3)
-* **Valerio Neri**  [Github profile](https://github.com/andreabac3)
+* **Valerio Neri**  [Github profile](https://github.com/selektion)
 
 See also the list of [contributors](https://github.com/andreabac3/Calculus-of-Communicating-Systems/contributors) who participated in this project.
 
