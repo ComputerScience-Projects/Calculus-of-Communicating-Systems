@@ -6,7 +6,8 @@ The calculus of communicating systems (CCS) is a process calculus introduced by 
 This program calculates the abstract tree of the computation performed by the rules of the Calculus of Communication System created by Robin Milner.<br/>
 You can print the abstract tree.<br/>
 For more information about Calculus of Communication System<br/>
-You can find more information in the [pdf file](htps://github.com/andreabac3/Calculus-of-Communicating-Systems/blob/master/ccs.pdf) 
+You can find more information in the 
+[pdf file](ccs.pdf) 
 <br/>
 Assigned by Professor [Pietro Cenciarelli](http://wwwusers.di.uniroma1.it/~cencia/) at University of Rome Sapienza during the course Programming Languages and Types Theory
 
