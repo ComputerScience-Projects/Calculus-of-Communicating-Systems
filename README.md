@@ -73,7 +73,7 @@ The form of the parameters is specified in the abstract algebra:
 
 ## Authors
 
-* **Alessandro Scandone**  - [Github profile](https://github.com/andreabac3)
+* **Alessandro Scandone**  - [Github profile](https://github.com/ascandone)
 * **Andrea Bacciu**  [Github profile](https://github.com/andreabac3)
 * **Valerio Neri**  [Github profile](https://github.com/selektion)
 
