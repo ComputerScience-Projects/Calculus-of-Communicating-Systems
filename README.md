@@ -7,7 +7,7 @@ This program calculates the abstract tree of the computation performed by the ru
 You can print the abstract tree.<br/>
 For more information about Calculus of Communication System<br/>
 You can find more information in the 
-[pdf file](ccs.pdf)..
+[pdf file](ccs.pdf).
 <br/>
 Assigned by Professor [Pietro Cenciarelli](http://wwwusers.di.uniroma1.it/~cencia/) at University of Rome Sapienza during the course Programming Languages and Types Theory.
 
