@@ -79,6 +79,6 @@ The form of the parameters is specified in the abstract algebra:
 
 See also the list of [contributors](https://github.com/andreabac3/Calculus-of-Communicating-Systems/contributors) who participated in this project.
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
