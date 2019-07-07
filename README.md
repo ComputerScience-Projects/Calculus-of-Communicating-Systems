@@ -71,7 +71,7 @@ The form of the parameters is specified in the abstract algebra:
     | Par of process * process
 ```
 
-## Authors
+# Authors
 
 * **Alessandro Scandone**  - [Github profile](https://github.com/ascandone)
 * **Andrea Bacciu**  [Github profile](https://github.com/andreabac3)
