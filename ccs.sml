@@ -54,7 +54,7 @@
           ^ (concat o map (fn Branch (ch', tree) => "\n" ^ recursion ch' tree (level + 1))) children
     in recursion NONE tree 0 end
 
-(* Examples *)
+(* Some examples *)
 
 ; val p1 = Input_proc ("a", Empty_proc)
 
